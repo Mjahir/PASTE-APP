@@ -1,0 +1,16 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "src/index.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+  
